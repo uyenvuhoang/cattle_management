@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html xmlns:th="https://www.thymeleaf.org">
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link th:href="@{/home/css/order.css}" rel="stylesheet">
+    </head>
+    <body>
+        <section class="breadcrumb-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <h2>Dairy Farm</h2>
+                        <h2>Order successfully</h2>
+                    </div>
+                    <div class="col-xs-6">
+                        <ol class="breadcrumb">
+                            <li>
+                                <h3 style="margin-left: 79%;
+                                    margin-bottom: 38px;
+                                    margin-top: -39px;"><a th:href="@{/}">Home</a>/Order Successfully</h3>
+                            </li>
+
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content error">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="error-wrapper">
+                            <div class="error-text">
+                                <h1>ORDER SUCCESSFULLY</h1>
+                                <p>Thank you for your order. We will make it on processing as soon as possible.</p>
+                                <p>
+                                    <a th:href="@{/products}">Let go back to shop more</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
